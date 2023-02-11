@@ -1,0 +1,57 @@
+.solid {
+  border-style: solid;
+}
+
+.border1 {
+  border-width: 1cm;
+  border-color: red;
+}
+
+.border2 {
+  border-width: 1mm;
+  border-color: royalblue;
+  border-style: dotted;
+}
+
+.border3 {
+  border-width: 2pc;
+  border-color: bisque;
+}
+
+.grande {
+  font-size: 2em;
+}
+
+.azul {
+  color: blue
+}
+
+p+p {
+  border-style: solid;
+}
+
+div>article {
+  border-style: solid;
+}
+
+div+p {
+  font-size: 50px;
+}
+
+br~b {
+  border-style: solid;
+  border-radius: 20%;
+}
+
+h2[title~="perros"] {
+  background-color: black;
+  color: white;
+}
+
+html[lang |="en"] {
+  background-color: antiquewhite;
+}
+
+html[lang |="es"] {
+  background-color: salmon;
+}
